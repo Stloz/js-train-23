@@ -47,7 +47,7 @@ const john = new User("John", SMSMessenger);
 const jane = new User("Jane", EmailMessenger);
 
 // John відправляє повідомлення за допомогою SMS.
-john.sendMessage("Привіт!"); // Виведе: Відправлено SMS: [John]: Привіт!
+john.sendMessage("Привіт! Як справи?"); // Виведе: Відправлено SMS: [John]: Привіт!
 
 // Jane відправляє повідомлення за допомогою Email.
 jane.sendMessage("Привіт!"); // Виведе: Відправлено Email: [Jane]: Привіт!
